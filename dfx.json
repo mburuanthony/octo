@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "canisters": {
+    "icp_rust_boilerplate_backend": {
+      "type": "rust",
+      "package": "rust-icp",
+      "candid": "src/rust-icp/rust-icp.did"
+    }
+  },
+  "output_env_file": ".env"
+}
