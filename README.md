@@ -1,4 +1,4 @@
-<h3 style="text-align:center; text-decoration:underline;">ICP with Rust</h3>
+#### ICP with Rust
 
 #### Install dependencies
 
