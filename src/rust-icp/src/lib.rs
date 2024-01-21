@@ -49,7 +49,7 @@ fn get_message(id: u64) -> Result<messages::Message, Error> {
     match _get_message(&id) {
         Some(message) => Ok(message),
         None => Err(Error::NotFound {
-            msg: format!("Company with id={} not found", id),
+            msg: format!("Message with id={} not found", id),
         }),
     }
 }
